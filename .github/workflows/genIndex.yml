@@ -1,0 +1,30 @@
+name: Generate README.md
+
+on:
+    workflow_dispatch:
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout codes
+              uses: actions/checkout@v2
+              with:
+                ref: 'master'
+            - name: Use Node.js
+              uses: actions/setup-node@v1
+              with:
+                node-version: '12.x'
+            - name: Run genIndex.js
+              run: node genIndex.js
+            - name: Git commit
+              run: |
+                git config --global user.email kaixuan1115@126.com
+                git config --global user.name kaixuan1115
+                git add README.md
+                git commit -m "Update README" || true
+            - name: Push changes
+              uses: ad-m/github-push-action@master
+              with:
+                github_token: ${{ secrets.GITHUB_TOKEN }}
+              
