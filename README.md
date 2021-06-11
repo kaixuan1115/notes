@@ -1,5 +1,6 @@
 ## 笔记
 
+- [Docker启用buildx插件，构建跨平台镜像](https://github.com/kaixuan1115/notes/issues/35)
 - [Docker构建多架构镜像Push至Docker Hub](https://github.com/kaixuan1115/notes/issues/34)
 - [Docker服务配置代理加速Docker Hub](https://github.com/kaixuan1115/notes/issues/33)
 - [Armbian开启udev自动挂载USB设备](https://github.com/kaixuan1115/notes/issues/32)
