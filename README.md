@@ -1,5 +1,6 @@
 ## 笔记
 
+- [如何将 <code>sda2</code> 改名至 <code>sda1</code>](https://github.com/kaixuan1115/notes/issues/36)
 - [Docker启用buildx插件，构建跨平台镜像](https://github.com/kaixuan1115/notes/issues/35)
 - [Docker构建多架构镜像Push至Docker Hub](https://github.com/kaixuan1115/notes/issues/34)
 - [Docker服务配置代理加速Docker Hub](https://github.com/kaixuan1115/notes/issues/33)
