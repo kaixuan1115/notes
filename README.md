@@ -1,5 +1,8 @@
 ## 笔记
 
+- [RUST编译MSVC 2013缺少<code>legacy_stdio_definitions.lib</code>解决办法](https://github.com/kaixuan1115/notes/issues/39)
+- [如何在64位windows上编译32位的RUST程序？](https://github.com/kaixuan1115/notes/issues/38)
+- [RUST静态链接，让编译出来的程序不再依赖其他库](https://github.com/kaixuan1115/notes/issues/37)
 - [如何将 <code>sda2</code> 改名至 <code>sda1</code>](https://github.com/kaixuan1115/notes/issues/36)
 - [Docker启用buildx插件，构建跨平台镜像](https://github.com/kaixuan1115/notes/issues/35)
 - [Docker构建多架构镜像Push至Docker Hub](https://github.com/kaixuan1115/notes/issues/34)
