@@ -59,10 +59,13 @@ Application.prototype.getIssueList = function (page) {
 };
 
 Application.prototype.parseFiles = function (content) {
-	const regexp = /(\/blob\/master\/documents\/.+)">(.+)<\/a><\/span>/g;
-	var result;
+	const regexp = /(\/blob\/master\/documents\/.+?)">(.+?)<\/a>/g;
+	var result, set_tmp = new Set();
 	while (result = regexp.exec(content)) {
-		this.file_list.push(`- [${result[2]}](${github}${result[1]})`);
+		const str = `- [${result[2]}](${github}${result[1]})`;
+		if (set_tmp.has(str)) continue;
+		set_tmp.add(str);
+		this.file_list.push(str);
 	}
 };
 
