@@ -1,5 +1,10 @@
 ## 笔记
 
+- [VS2022不能安装WTL10的解决方法](https://github.com/kaixuan1115/notes/issues/47)
+- [Qt Windows高清DPI自适应分辨率缩放，比较完美的解决方案](https://github.com/kaixuan1115/notes/issues/46)
+- [关于Qt高分屏缩放几个知识点](https://github.com/kaixuan1115/notes/issues/45)
+- [Windows OpenSSL二进制开发库下载](https://github.com/kaixuan1115/notes/issues/44)
+- [Android APK对齐和重新签名](https://github.com/kaixuan1115/notes/issues/42)
 - [<code>Cargo</code>使用代理并忽略<code>SSL</code>检查](https://github.com/kaixuan1115/notes/issues/40)
 - [RUST编译MSVC 2013缺少<code>legacy_stdio_definitions.lib</code>解决办法](https://github.com/kaixuan1115/notes/issues/39)
 - [如何在64位windows上编译32位的RUST程序？](https://github.com/kaixuan1115/notes/issues/38)
@@ -43,5 +48,4 @@
 
 ## 文档
 
-- [VC6+Win2003SDK_SP2编译AMD64位程序.pdf](https://github.com/kaixuan1115/notes/blob/master/documents/VC6%2BWin2003SDK_SP2%E7%BC%96%E8%AF%91AMD64%E4%BD%8D%E7%A8%8B%E5%BA%8F.pdf)
 
