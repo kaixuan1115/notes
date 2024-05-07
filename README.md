@@ -48,4 +48,5 @@
 
 ## 文档
 
+- [VC6+Win2003SDK_SP2编译AMD64位程序.pdf](https://github.com/kaixuan1115/notes/blob/master/documents/VC6%2BWin2003SDK_SP2%E7%BC%96%E8%AF%91AMD64%E4%BD%8D%E7%A8%8B%E5%BA%8F.pdf)
 
