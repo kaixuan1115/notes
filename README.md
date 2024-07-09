@@ -1,5 +1,9 @@
 ## 笔记
 
+- [桥接模式下<code>Openwrt</code>软路由直接访问光猫后台](https://github.com/kaixuan1115/notes/issues/53)
+- [如何关闭Win11开始菜单的网络搜索](https://github.com/kaixuan1115/notes/issues/51)
+- [禁用Windows中的Win热键或某些Win组合键](https://github.com/kaixuan1115/notes/issues/50)
+- [Linux下挂载并修改img镜像的分区文件](https://github.com/kaixuan1115/notes/issues/49)
 - [VS2022不能安装WTL10的解决方法](https://github.com/kaixuan1115/notes/issues/47)
 - [Qt Windows高清DPI自适应分辨率缩放，比较完美的解决方案](https://github.com/kaixuan1115/notes/issues/46)
 - [关于Qt高分屏缩放几个知识点](https://github.com/kaixuan1115/notes/issues/45)
@@ -48,5 +52,4 @@
 
 ## 文档
 
-- [VC6+Win2003SDK_SP2编译AMD64位程序.pdf](https://github.com/kaixuan1115/notes/blob/master/documents/VC6%2BWin2003SDK_SP2%E7%BC%96%E8%AF%91AMD64%E4%BD%8D%E7%A8%8B%E5%BA%8F.pdf)
 
