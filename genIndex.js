@@ -59,10 +59,10 @@ Application.prototype.getIssueList = function (page) {
 };
 
 Application.prototype.parseFiles = function (content) {
-	const regexp = /(\/blob\/master\/documents\/.+?)">(.+?)<\/a>/g;
+	const regexp = /"path":"documents\/(.+?)"/g;
 	var result, set_tmp = new Set();
 	while (result = regexp.exec(content)) {
-		const str = `- [${result[2]}](${github}${result[1]})`;
+		const str = `- [${result[1]}](${github}/raw/master/documents/${encodeURIComponent(result[1])})`;
 		if (set_tmp.has(str)) continue;
 		set_tmp.add(str);
 		this.file_list.push(str);
