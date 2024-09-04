@@ -1,5 +1,9 @@
 ## 笔记
 
+- [Win10/Win11 网络共享及重启后失效的解决办法](https://github.com/kaixuan1115/notes/issues/58)
+- [Win10 / Win11 暂停更新延长至十年](https://github.com/kaixuan1115/notes/issues/57)
+- [Win10/11 连接蓝牙音量默认100解决办法](https://github.com/kaixuan1115/notes/issues/56)
+- [FastReport.Net 2023.1.8 破解版及逆向思路](https://github.com/kaixuan1115/notes/issues/55)
 - [桥接模式下<code>Openwrt</code>软路由直接访问光猫后台](https://github.com/kaixuan1115/notes/issues/53)
 - [如何关闭Win11开始菜单的网络搜索](https://github.com/kaixuan1115/notes/issues/51)
 - [禁用Windows中的Win热键或某些Win组合键](https://github.com/kaixuan1115/notes/issues/50)
