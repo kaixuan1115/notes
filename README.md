@@ -1,5 +1,9 @@
 ## 笔记
 
+- [开启系统自带右键Hash校验工具](https://github.com/kaixuan1115/notes/issues/62)
+- [SQL Server查看结果集的每个字段和类型](https://github.com/kaixuan1115/notes/issues/61)
+- [关闭并禁止 <code>PackageKit</code> 服务](https://github.com/kaixuan1115/notes/issues/60)
+- [C++程序 CPU占用过高排查方法](https://github.com/kaixuan1115/notes/issues/59)
 - [Win10/Win11 网络共享及重启后失效的解决办法](https://github.com/kaixuan1115/notes/issues/58)
 - [Win10/Win11 暂停更新延长至十年](https://github.com/kaixuan1115/notes/issues/57)
 - [Win10/Win11 连接蓝牙音量默认100解决办法](https://github.com/kaixuan1115/notes/issues/56)
