@@ -1,5 +1,7 @@
 ## 笔记
 
+- [Windows 11 恢复旧版右键菜单](https://github.com/kaixuan1115/notes/issues/64)
+- [SQL Server 数据库显示<code>可疑</code>解决方法](https://github.com/kaixuan1115/notes/issues/63)
 - [开启系统自带右键Hash校验工具](https://github.com/kaixuan1115/notes/issues/62)
 - [SQL Server查看结果集的每个字段和类型](https://github.com/kaixuan1115/notes/issues/61)
 - [关闭并禁止 <code>PackageKit</code> 服务](https://github.com/kaixuan1115/notes/issues/60)
