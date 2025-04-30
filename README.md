@@ -1,8 +1,12 @@
 ## 笔记
 
+- [Win11 启用旧版经典`Ribbon`界面资源管理器](https://github.com/kaixuan1115/notes/issues/72)
+- [VC6升级VS2022的MFC程序启用现代扁平外观](https://github.com/kaixuan1115/notes/issues/69)
+- [如果单表数据量大，只能考虑分库分表吗？](https://github.com/kaixuan1115/notes/issues/68)
+- [强制重建MSSQL损坏的LDF事务日志文件](https://github.com/kaixuan1115/notes/issues/67)
 - [Win10/11 禁止移动磁盘生成`System Volume Information`](https://github.com/kaixuan1115/notes/issues/66)
 - [Windows 注册表修改`新建文件/文件夹`默认名称](https://github.com/kaixuan1115/notes/issues/65)
-- [Windows 11 恢复旧版右键菜单](https://github.com/kaixuan1115/notes/issues/64)
+- [Windows 11 启用旧版右键菜单和`Ribbon`资源管理器](https://github.com/kaixuan1115/notes/issues/64)
 - [SQL Server 数据库显示`可疑`解决方法](https://github.com/kaixuan1115/notes/issues/63)
 - [开启系统自带右键Hash校验工具](https://github.com/kaixuan1115/notes/issues/62)
 - [SQL Server查看结果集的每个字段和类型](https://github.com/kaixuan1115/notes/issues/61)
