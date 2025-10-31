@@ -1,5 +1,7 @@
 ## 笔记
 
+- [Win11 隐藏右键菜单——添加到收藏夹](https://github.com/kaixuan1115/notes/issues/74)
+- [Win11 自动登录系统，跳过手动输入密码](https://github.com/kaixuan1115/notes/issues/73)
 - [Win11 启用旧版经典`Ribbon`界面资源管理器](https://github.com/kaixuan1115/notes/issues/72)
 - [VC6升级VS2022的MFC程序启用现代扁平外观](https://github.com/kaixuan1115/notes/issues/69)
 - [如果单表数据量大，只能考虑分库分表吗？](https://github.com/kaixuan1115/notes/issues/68)
