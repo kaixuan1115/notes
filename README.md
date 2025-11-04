@@ -1,5 +1,6 @@
 ## 笔记
 
+- [下载的文件需要**右键属性解除锁定**的解决方法](https://github.com/kaixuan1115/notes/issues/75)
 - [Win11 隐藏右键菜单——添加到收藏夹](https://github.com/kaixuan1115/notes/issues/74)
 - [Win11 自动登录系统，跳过手动输入密码](https://github.com/kaixuan1115/notes/issues/73)
 - [Win11 启用旧版经典`Ribbon`界面资源管理器](https://github.com/kaixuan1115/notes/issues/72)
@@ -47,7 +48,7 @@
 - [Linux更换Sysvinit为Systemd](https://github.com/kaixuan1115/notes/issues/23)
 - [Android Captive Portal URLs Commands](https://github.com/kaixuan1115/notes/issues/22)
 - [一张图看懂开源许可协议](https://github.com/kaixuan1115/notes/issues/21)
-- [Win 8/8.1/10彻底关闭UAC](https://github.com/kaixuan1115/notes/issues/20)
+- [Win 8/8.1/10/11 彻底关闭UAC](https://github.com/kaixuan1115/notes/issues/20)
 - [Quick-pomelo使用中的坑](https://github.com/kaixuan1115/notes/issues/19)
 - [Git设置可视化比对工具](https://github.com/kaixuan1115/notes/issues/18)
 - [Android.mk编译可执行文件](https://github.com/kaixuan1115/notes/issues/17)
