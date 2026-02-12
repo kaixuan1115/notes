@@ -1,5 +1,7 @@
 ## 笔记
 
+- [优化 OpenWrt 提升网络性能和稳定性](https://github.com/kaixuan1115/notes/issues/77)
+- [Windows 11家庭版增加安装组策略编辑器](https://github.com/kaixuan1115/notes/issues/76)
 - [下载的文件需要**右键属性解除锁定**的解决方法](https://github.com/kaixuan1115/notes/issues/75)
 - [Win11 隐藏右键菜单——添加到收藏夹](https://github.com/kaixuan1115/notes/issues/74)
 - [Win11 自动登录系统，跳过手动输入密码](https://github.com/kaixuan1115/notes/issues/73)
