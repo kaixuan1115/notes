@@ -39,10 +39,10 @@ Application.prototype.parseIssues = function (content) {
     if (!result || !result[1]) return 0;
     var json;
     try { json = JSON.parse(result[1]); } catch {}
-    for (let it of json?.payload?.preloadedQueries[0]?.result?.data?.repository?.search?.edges || []) {
-        this.note_list.push(`- [${it.node.title}](${github}/issues/${it.node.number})`);
+    for (let it of json?.payload?.issuesIndexContentRoute?.results || []) {
+        this.note_list.push(`- [${it.issue.title}](${github}/issues/${it.issue.number})`);
     }
-    return json?.payload?.preloadedQueries[0]?.result?.data?.repository?.search?.issueCount;
+    return json?.payload?.issuesIndexContentRoute?.pageInfo?.totalPages || 0;
 };
 
 Application.prototype.getIssueList = function (page) {
@@ -66,17 +66,17 @@ Application.prototype.parseFiles = function (content) {
     if (!result || !result[1]) return;
     var json;
     try { json = JSON.parse(result[1]); } catch {}
-    for (const it of json?.payload?.tree?.items || []) {
+    for (const it of json?.payload?.codeViewTreeRoute?.tree?.items || []) {
         this.file_list.push(`- [${it.name}](${github}/raw/master/documents/${encodeURIComponent(it.name)})`);
     }
 };
 
 Application.prototype.run = function () {
     return this.httpsGet(github + "/issues?q=is:issue+is:closed+label:documentation", (err, content) => {
-        const issueCount = this.parseIssues(content); // Page 1
+        const totalPage = this.parseIssues(content); // Page 1
         this.req_threads[0] = { processed: true, content };
-        if (!(issueCount > 0)) return this.event.emit('note_end');
-        this.req_threads.total_page = Math.ceil(issueCount / 25);
+        if (!(totalPage > 0)) return this.event.emit('note_end');
+        this.req_threads.total_page = totalPage;
         console.log('Processed page = 1, total_page = %d.', this.req_threads.total_page);
         for (let page = 2; page <= this.req_threads.total_page; ++page) { // Page 2
             this.getIssueList(page);
