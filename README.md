@@ -1,5 +1,7 @@
 ## 笔记
 
+- [Windows右键新建菜单增加CMD命令脚本](https://github.com/kaixuan1115/notes/issues/79)
+- [Windows 11添加非445端口Samba共享映射](https://github.com/kaixuan1115/notes/issues/78)
 - [优化 OpenWrt 提升网络性能和稳定性](https://github.com/kaixuan1115/notes/issues/77)
 - [Windows 11家庭版增加安装组策略编辑器](https://github.com/kaixuan1115/notes/issues/76)
 - [下载的文件需要**右键属性解除锁定**的解决方法](https://github.com/kaixuan1115/notes/issues/75)
